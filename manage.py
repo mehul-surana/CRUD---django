@@ -1,4 +1,7 @@
-#!/usr/bin/env python
+from django.urls import clear_script_prefix
+
+
+clear_script_prefix#!/usr/bin/env python
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
